@@ -18,38 +18,6 @@ public class CleanChat extends Module {
     public CleanChat() {
         super("CleanChat", KEY_UNBOUND, Category.CHAT, "checks messages you receive and removes ones with bad words in them! To add words \"" + Command.PREFIX + "cleanchat add/del [word]\"");
     }
-    ArrayList blacklistedWords = new ArrayList<String>();
-    @Override
-    public void onEnable() {
-        super.onEnable();
-        for (String s : BleachFileMang.readFileLines("cleanchat.txt")) {
-            blacklistedWords.add(s);
-        }
-    }
 
-    @Subscribe
-    public void onPacketRead(EventReadPacket event) {
-        if (event.getPacket() instanceof GameMessageS2CPacket) {
-            List<String> allMatches = new ArrayList<String>();
-            String text = ((GameMessageS2CPacket) event.getPacket()).getMessage().toString();
-            Pattern p = Pattern.compile("text='(.*?)'");   // the pattern to search for
-            Matcher m = p.matcher(text);
-            while (m.find()) {
-                allMatches.add(m.group(1));
-            }
-            StringBuilder parsed = new StringBuilder();
-            for (String s : allMatches)
-            {
-                parsed.append(s);
-            }
-            for (Object s : blacklistedWords)
-            {
-                if (parsed.toString().toLowerCase().contains(s.toString().toLowerCase())) {
-                    event.setCancelled(true);
-                }
-            }
-
-        }
-    }
 
 }

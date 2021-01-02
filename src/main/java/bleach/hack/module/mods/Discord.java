@@ -19,7 +19,7 @@ public class Discord extends Module
         try {
             System.out.println("headless toggle property: " + System.getProperty("java.awt.headless"));
             if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
-                Desktop.getDesktop().browse(new URI("https://discord.gg/YbBGjpt4NW"));
+                Desktop.getDesktop().browse(new URI("https://discord.gg/JcVXhtmwUy"));
             }
         } catch (Exception e) {e.printStackTrace();}
         ModuleManager.getModule(Discord.class).toggle();

@@ -37,7 +37,6 @@
     "MixinScreen",
     "MixinServerScreen",
     "MixinSignBlockEntityRenderer",
-    "MixinSkyProperties",
     "MixinSoundSystem",
     "MixinTextRenderer",
     "MixinNoToolCooldown",

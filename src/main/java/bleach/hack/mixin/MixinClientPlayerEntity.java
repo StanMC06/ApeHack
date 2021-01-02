@@ -84,15 +84,6 @@ public class MixinClientPlayerEntity extends AbstractClientPlayerEntity {
             info.cancel();
     }
 
-    @Redirect(method = "tickMovement()V", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/network/ClientPlayerEntity;isUsingItem()Z"))
-    private boolean tickMovement_isUsingItem(ClientPlayerEntity player) {
-        if (ModuleManager.getModule(NoSlow.class).isToggled() && ModuleManager.getModule(NoSlow.class).getSetting(5).asToggle().state) {
-            return false;
-        }
-
-        return player.isUsingItem();
-    }
-
     @Inject(at = @At("HEAD"), method = "move", cancellable = true)
     public void move(MovementType movementType_1, Vec3d vec3d_1, CallbackInfo info) {
         EventClientMove event = new EventClientMove(movementType_1, vec3d_1);
@@ -105,13 +96,6 @@ public class MixinClientPlayerEntity extends AbstractClientPlayerEntity {
             super.move(event.type, event.vec3d);
             this.autoJump((float) (this.getX() - double_1), (float) (this.getZ() - double_2));
             info.cancel();
-        }
-    }
-
-    @Inject(at = @At("HEAD"), method = "method_30673", cancellable = true)
-    protected void method_30673(double double_1, double double_2, CallbackInfo ci) {
-        if (ModuleManager.getModule(Freecam.class).isToggled()) {
-            ci.cancel();
         }
     }
 

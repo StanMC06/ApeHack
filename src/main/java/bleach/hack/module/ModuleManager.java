@@ -97,7 +97,6 @@ public class ModuleManager {
         new Nofall(),
         new NoKeyBlock(),
         new NoRender(),
-        new NoSlow(),
         new Notebot(),
         new NotebotStealer(),
         new NoToolCooldown(),
