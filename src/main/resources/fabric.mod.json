@@ -1,29 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "machack",
+  "id": "bleachhack",
   "version": "${version}",
-
-  "name": "Mac Hack",
-  "description": "Based and red pill",
+  "name": "BleachHack epearl Edition",
+  "description": "SUPER gamer hack",
   "authors": [
-    "ChiquitaV2#3814",
-    "Ethius#5699 ;)"
+    "epearl#0001"
   ],
   "contact": {
     "homepage": "https://github.com/BleachDrinker420/",
     "sources": "https://github.com/BleachDrinker420/bleachhack-1.14"
   },
-
   "license": "CC0-1.0",
-  "icon": "assets/machack/icon.png",
-
+  "icon": "assets/bleachhack/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "mac.hack.MacHack"
+      "bleach.hack.BleachHack"
     ]
   },
   "mixins": [
-    "machack.mixins.json"
+    "bleachhack.mixins.json"
   ]
 }

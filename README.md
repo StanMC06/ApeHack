@@ -2,7 +2,7 @@
 [![discord](https://img.shields.io/badge/Discord-h8EQyuYTK7-9080c2)](https://discord.gg/anF6G8DUWp)
 ![](https://img.shields.io/github/languages/code-size/StanMC06/ApeHack.svg)
 
-Very cool client skid by StanMC06. Original client made by Bleach and epearl and ChiquitaV2
+Very cool client skid by StanMC06. Original client made by Bleach and epearl
 
 This is very cool client for all the people who rejected humanity and want to return monkey.
 This is mainly a skid but i will try adding stuff since this is the first client i ever make.
