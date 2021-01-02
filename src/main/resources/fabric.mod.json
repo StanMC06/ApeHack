@@ -1,15 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "bleachhack",
+  "id": "apehack
   "version": "${version}",
-  "name": "BleachHack epearl Edition",
-  "description": "SUPER gamer hack",
+  "name": "Apehack
+  "description": "return to monke
   "authors": [
-    "epearl#0001"
+    "epearl",
+    "BruzzTheHuzz",
+    "StanMC06"
   ],
   "contact": {
-    "homepage": "https://github.com/BleachDrinker420/",
-    "sources": "https://github.com/BleachDrinker420/bleachhack-1.14"
+    "homepage": "https://discord.gg/JcVXhtmwUy",
+    "sources": "https://github.com/StanMC06/ApeHack"
   },
   "license": "CC0-1.0",
   "icon": "assets/bleachhack/icon.png",
