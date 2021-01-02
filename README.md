@@ -1,12 +1,11 @@
-# MacHack 1.16.4 
+# ApeHack For 1.16.4 
 [![discord](https://img.shields.io/badge/Discord-h8EQyuYTK7-9080c2)](https://discord.gg/anF6G8DUWp)
 ![](https://img.shields.io/github/languages/code-size/StanMC06/ApeHack.svg)
 
-Very cool client skid by StanMC06. Original client made by Bleach and epearl 
+Very cool client skid by StanMC06. Original client made by Bleach and epearl and ChiquitaV2
 
-This is designed for people who want to use Bleach had epearl edition
-but can't because they are on mac or linux. Anyone should be able to use this no matter their OS.
-The only big difference between MacHack and MacHack+, is that MacHack+ has BA and gets modules faster but those modules will come to MacHack with time(like a day or two.) 
+This is very cool client for all the people who rejected humanity and want to return monkey.
+This is mainly a skid but i will try adding stuff since this is the first client i ever make.
 
 Works on fabric 1.16.2/3/4
 
