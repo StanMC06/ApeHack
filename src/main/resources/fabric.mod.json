@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "apehack
+  "id": "apehack",
   "version": "${version}",
-  "name": "Apehack
-  "description": "return to monke
+  "name": "Apehack",
+  "description": "return to monke",
   "authors": [
     "epearl",
     "BruzzTheHuzz",
