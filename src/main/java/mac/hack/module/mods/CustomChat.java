@@ -114,9 +114,9 @@ public class CustomChat extends Module {
 					if (mc.player.distanceTo(e) < 12 && msg.contains(e.getName().asString())
 							&& !msg.contains("<" + e.getName().asString() + ">") && !msg.contains("<" + mc.player.getName().asString() + ">")) {
 						if (getSettings().get(4).asMode().mode == 1) {
-							mc.player.sendChatMessage(e.getName().asString() + " Just got EZed using the power of MacHack " + MacHack.VERSION);
+							mc.player.sendChatMessage(e.getName().asString() + " Just got EZed by ApeHack return to monkey you ape! " + MacHack.VERSION);
 						} else {
-							mc.player.sendChatMessage("GG, " + e.getName().asString() + ", but MacHack " + MacHack.VERSION + " is ontop!");
+							mc.player.sendChatMessage("GG, " + e.getName().asString() + ", but ApeHack " + MacHack.VERSION + " is ontop!");
 						}
 					}
 				}
