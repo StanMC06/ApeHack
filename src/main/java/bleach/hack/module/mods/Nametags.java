@@ -34,7 +34,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.MathHelper;
 
 import java.util.Objects;
-
+// fixed here ya go
 public class Nametags extends Module {
     public int theirPing;
     public Nametags() {
