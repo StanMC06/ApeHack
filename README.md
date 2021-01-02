@@ -6,7 +6,8 @@ Very cool client skid by StanMC06. Original client made by Bleach and epearl
 
 This is very cool client for all the people who rejected humanity and want to return monkey.
 This is mainly a skid but i will try adding stuff since this is the first client i ever make.
-Devs: StanMC06 and BruzzTheHuzz
+
+Devs: @StanMC06 and @BruzzTheHuzz0
 
 Works on fabric 1.16.2/3/4
 
