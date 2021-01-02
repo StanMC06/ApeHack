@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "machack",
+  "version": "${version}",
+
+  "name": "Mac Hack",
+  "description": "Based and red pill",
+  "authors": [
+    "ChiquitaV2#3814",
+    "Ethius#5699 ;)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/BleachDrinker420/",
+    "sources": "https://github.com/BleachDrinker420/bleachhack-1.14"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/machack/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mac.hack.MacHack"
+    ]
+  },
+  "mixins": [
+    "machack.mixins.json"
+  ]
+}
