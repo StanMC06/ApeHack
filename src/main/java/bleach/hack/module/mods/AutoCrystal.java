@@ -39,14 +39,13 @@ public class AutoCrystal extends Module {
     private BlockPos targetBlock;
 
 
-//TODO: antisuicide
-//TODO: silent crystal swap
+// Updated by BruzzTheHuzz
 
     public AutoCrystal() {
         super("AutoCrystal", KEY_UNBOUND, Category.COMBAT, "Auto crystal chungus",
                 new SettingToggle("Players", true),
-                new SettingToggle("Mobs", true),
-                new SettingToggle("Animals", true),
+                new SettingToggle("Mobs", false),
+                new SettingToggle("Animals", false),
                 new SettingToggle("AutoSwitch", true),
                 new SettingSlider("MaxSelfDMG", 0, 20, 4, 0),
                 new SettingSlider("MinEnemyDMG", 0, 20, 6, 0),
