@@ -68,6 +68,6 @@ public class BleachLogger {
     }
 
     private static String getBHText(Formatting color) {
-        return color + "\u00A77[\u00A79BleachHack\u00A77] \u00A79";
+        return color + "\u00A77[\u00A79ApeHack\u00A77] \u00A79";
     }
 }

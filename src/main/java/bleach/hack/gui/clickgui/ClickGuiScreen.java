@@ -85,7 +85,7 @@ public class ClickGuiScreen extends AbstractWindowScreen {
                 StringUtils.capitalize(StringUtils.lowerCase(Category.WORLD.toString())), new ItemStack(Items.GRASS_BLOCK)));
         i += len + 5;
         windows.add(new ModuleWindow(ModuleManager.getModulesInCat(Category.MOVEMENT), i, 35, len,
-                StringUtils.capitalize(StringUtils.lowerCase(Category.MOVEMENT.toString())), new ItemStack(Items.POTION)));
+                StringUtils.capitalize(StringUtils.lowerCase(Category.MOVEMENT.toString())), new ItemStack(Items.DIAMOND_BOOTS)));
         i += len + 5;
         windows.add(new ModuleWindow(ModuleManager.getModulesInCat(Category.EXPLOITS), i, 35, len,
                 StringUtils.capitalize(StringUtils.lowerCase(Category.EXPLOITS.toString())), new ItemStack(Items.BEDROCK)));

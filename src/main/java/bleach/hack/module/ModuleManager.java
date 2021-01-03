@@ -108,6 +108,7 @@ public class ModuleManager {
         new OffhandCrash(),
         new PacketFly(),
         new Peek(),
+        new PickReplace(),
         new PlayerCrash(),
         new PortalESP(),
         new SafeWalk(),
