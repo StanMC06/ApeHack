@@ -76,7 +76,7 @@ public class ClickGuiScreen extends AbstractWindowScreen {
                 StringUtils.capitalize(StringUtils.lowerCase(Category.PLAYER.toString())), new ItemStack(Items.ARMOR_STAND)));
         i += len + 5;
         windows.add(new ModuleWindow(ModuleManager.getModulesInCat(Category.COMBAT), i, 35, len,
-                StringUtils.capitalize(StringUtils.lowerCase(Category.COMBAT.toString())), new ItemStack(Items.DIAMOND_SWORD)));
+                StringUtils.capitalize(StringUtils.lowerCase(Category.COMBAT.toString())), new ItemStack(Items.NETHERITE_SWORD)));
         i += len + 5;
         windows.add(new ModuleWindow(ModuleManager.getModulesInCat(Category.RENDER), i, 35, len,
                 StringUtils.capitalize(StringUtils.lowerCase(Category.RENDER.toString())), new ItemStack(Items.BEACON)));
@@ -85,7 +85,7 @@ public class ClickGuiScreen extends AbstractWindowScreen {
                 StringUtils.capitalize(StringUtils.lowerCase(Category.WORLD.toString())), new ItemStack(Items.GRASS_BLOCK)));
         i += len + 5;
         windows.add(new ModuleWindow(ModuleManager.getModulesInCat(Category.MOVEMENT), i, 35, len,
-                StringUtils.capitalize(StringUtils.lowerCase(Category.MOVEMENT.toString())), new ItemStack(Items.DIAMOND_BOOTS)));
+                StringUtils.capitalize(StringUtils.lowerCase(Category.MOVEMENT.toString())), new ItemStack(Items.NETHERITE_BOOTS)));
         i += len + 5;
         windows.add(new ModuleWindow(ModuleManager.getModulesInCat(Category.EXPLOITS), i, 35, len,
                 StringUtils.capitalize(StringUtils.lowerCase(Category.EXPLOITS.toString())), new ItemStack(Items.BEDROCK)));
