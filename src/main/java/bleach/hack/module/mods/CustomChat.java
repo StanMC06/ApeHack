@@ -57,7 +57,7 @@ public class CustomChat extends Module {
                     CharMap.single('X', '\u03c7'), CharMap.single('Y', '\u0443')));
 
     public String prefix = "";
-    public String suffix = " | Return Monkey with ApeHack";
+    public String suffix = " <-- don't listen to this message, i'm actually a retard";
 
     public CustomChat() {
         super("CustomChat", KEY_UNBOUND, Category.CHAT, "Customizes your chat messages, use the \"customchat\" command to edit the stuff",
